@@ -99,12 +99,6 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post
-%glib_compile_schemas
-
-%postun
-%glib_compile_schemas
-
 %post	-n libcallaudio -p /sbin/ldconfig
 %postun	-n libcallaudio -p /sbin/ldconfig
 
