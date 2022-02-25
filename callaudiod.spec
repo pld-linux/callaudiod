@@ -5,13 +5,13 @@
 Summary:	Call audio routing daemon
 Summary(pl.UTF-8):	Demon przekierowujący dźwięk w trakcie połączeń
 Name:		callaudiod
-Version:	0.1.0
+Version:	0.1.3
 Release:	1
 License:	GPL v3+ (daemon), LGPL v2.1+ (library)
 Group:		Daemons
 #Source0Download: https://gitlab.com/mobian1/callaudiod/-/tags
 Source0:	https://gitlab.com/mobian1/callaudiod/-/archive/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	cf45959ced1812e4e837ecd74fd93f08
+# Source0-md5:	7d39b4fc0931cc9812a9c6dd8937e5be
 URL:		https://gitlab.com/mobian1/callaudiod
 BuildRequires:	alsa-lib-devel
 BuildRequires:	glib2-devel >= 2.0
