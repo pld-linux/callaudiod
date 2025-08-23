@@ -22,7 +22,7 @@ BuildRequires:	meson >= 0.50.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-build >= 4.6
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 Requires:	libcallaudio = %{version}-%{release}
 Requires:	pulseaudio
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
